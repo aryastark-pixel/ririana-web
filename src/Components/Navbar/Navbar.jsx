@@ -3,8 +3,13 @@ import './Navbar.css'
 import logo from '../../assets/logoriana.jpg'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from 'react-scroll';
+import ShoePage from '../../ShoePage';
+import { Link as RouterLink} from 'react-router-dom';
 
 
+const handleOpenNewTab = () => {
+  window.open('/#/ShoePage', '_blank');
+};
 const Navbar = () => {
 
     const [sticky, setSticky] = useState(false);
@@ -32,6 +37,9 @@ const Navbar = () => {
         {/* <li><Link to='campus' smooth={true} offset={-260} duration={500}>Campus</Link></li> */}
         {/* <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li> */}
         <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact us</Link></li>
+        {/* <li><Link to='/shoeViewer' target="_blank" smooth={true} duration={500}>Demo</Link></li> */}
+        {/* <button onClick={handleOpenNewTab}>Shoe Page</button> */}
+        <li><RouterLink to="/ShoePage">3d Model</RouterLink></li>     
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
