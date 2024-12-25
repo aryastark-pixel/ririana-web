@@ -41,8 +41,8 @@ const Contact = () => {
         <h3>Write to us about your project requirements and we will get back to you within a day. <img src={msg_icon} alt="" /></h3>
         <p>Feel free to reach out through contact form or find our contact information below. </p>
         <ul>
-            <li><img src={mail_icon} alt="" />srijanabhattarai291@gmail.com</li>
-            <li><img src={phone_icon} alt="" />8101652485/ 9593286419</li>
+            <li><img src={mail_icon} alt="" />hr@ririana.in</li>
+            <li><img src={phone_icon} alt="" />8101652485/9593286419</li>
             <li><img src={location_icon} alt="" />West Bengal<br/> India</li>
         </ul>
       </div>

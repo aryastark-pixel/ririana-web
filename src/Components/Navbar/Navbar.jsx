@@ -39,7 +39,8 @@ const Navbar = () => {
         <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact us</Link></li>
         {/* <li><Link to='/shoeViewer' target="_blank" smooth={true} duration={500}>Demo</Link></li> */}
         {/* <button onClick={handleOpenNewTab}>Shoe Page</button> */}
-        <li><RouterLink to="/ShoePage">3d Model</RouterLink></li>     
+        <li><RouterLink to="/ShoePage">3d Model</RouterLink></li> 
+        <li><RouterLink to="/Dashboard">AI</RouterLink></li>    
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

@@ -1,6 +1,6 @@
 {
   "name": "edusity",
-  "homepage": "https://aryastark-pixel.github.io/ririana-web/",
+  "homepage": "https://ririana.in",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@react-three/drei": "^9.120.4",
     "@react-three/fiber": "^8.17.10",
+    "axios": "^1.7.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.0.2",

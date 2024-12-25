@@ -10,6 +10,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
 import ShoePage from './ShoePage'
+import Dashboard from './Components/AI/Dashboard'
 import { BrowserRouter as Router, Route, Routes,useLocation } from 'react-router-dom';
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
   const [playState, setPlayState] = useState(false);
 
   return (
-    <Router basename="/ririana-web">
+    <Router>
       <div>
         
         <Routes>
@@ -39,6 +40,7 @@ const App = () => {
             }
           />
           <Route path="/ShoePage" element={<ShoePage />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

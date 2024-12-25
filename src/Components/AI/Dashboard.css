@@ -1,0 +1,126 @@
+/* Global styles for the page */
+.dashboard-container {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #aa72e5, #8ab1f4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevent text overflow */
+  }
+  
+  .logout-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: auto; /* Pushes the logout button to the right */
+    white-space: nowrap; /* Prevent text overflow */
+  }
+  
+  .logout-text:hover {
+    color: #ff7eb3;
+  }
+  
+  /* Center container for Login/Dashboard */
+  .center-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .dashboard-card {
+    background: #311f1f61; /* Set white background */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Input and Button Styles */
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 25px; 
+    
+  }
+  .input-box::placeholder {
+    color: #173b82; /* Light gray color for the placeholder */
+    
+  }
+  .button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2575fc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #6a11cb;
+  }
+  .title{
+    font-size: 26px;
+    color: white !important;
+  }
+  .subtitle{
+    font-size: 19px;
+  }
+  
+  /* Ensure responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-title {
+      font-size: 18px;
+    }
+  
+    .logout-text {
+      font-size: 14px;
+    }
+  }
+  
+  
